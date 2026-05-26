@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Mark to Grade Converter</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="grades.html">Grade Converter</a>
+        <a href="staff.html">Staff</a>
+        <a href="temperature.html">Temperature</a>
+    </nav>
+</header>
+
+<main>
+
+    <input type="text"
+           id="mark-input-box"
+           placeholder="Enter mark">
+
+    <button onclick="markToGrade()">
+        Convert
+    </button>
+
+    <p id="validation-message"></p>
+
+    <h2 id="grade-result"></h2>
+
+</main>
+
+<footer>
+    <p>
+        © 2026 Denzel Davis |
+        Current Date:
+        <span class="currentDate"></span>
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
